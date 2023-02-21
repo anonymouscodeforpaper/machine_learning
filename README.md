@@ -17,7 +17,7 @@ A toy example in book recommendation showing how A<sup>3</sup>R works. The thick
 -- utilities.py contains the function necessary for data processing and model training
 
 
-To run the code, python3 main.py--name = 'book', this is to run on the Dbook2014 dataset, for CarMusic, python3 main.py--name = 'book', for the three movie datasets, python3 main.py--name = 'movie'
+To run the code, python3 main.py--name = 'dbbook2014', this is to run on the Dbook2014 dataset.
 
 
 ## Datasets:
@@ -26,3 +26,5 @@ To run the code, python3 main.py--name = 'book', this is to run on the Dbook2014
 
 -- The source for Netflix, MovieLens Development (Dev.) and the MovieLens 100K, we reuse the version provided in A. Rago, O. Cocarascu, C. Bechlivanidis, D. Lagnado, and F. Toni, “Argumentative explanations for interactive recommendations,” Artificial Intelligence, vol. 296, p. 103506, 2021.
 
+## Other files
+MovieLens100k,MovieLenssmall,NETFLIX, dbook2014 contains the the parameters of the models, the training and test, and the original datasets. In the NETFLIX, brand_new_netflix.ipynb contains codes for generating the cluster.
