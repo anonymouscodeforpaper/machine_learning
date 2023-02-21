@@ -25,7 +25,7 @@ def train(args):
 
     trainset, testset, n_user, n_attributes, n_attribute_types = read(args)
     rate = args.rate
-    if args.name == 'book':
+    if args.name == 'dbook2014':
         model = aspect_augumentation_book(
             n_user, n_attributes, n_attribute_types, args.dim).to(DEVICE)
         optimizer = torch.optim.Adam(params=model.parameters(), lr=lr,weight_decay=args.l2_weight)
