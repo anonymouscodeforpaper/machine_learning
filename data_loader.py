@@ -13,9 +13,9 @@ from operator import itemgetter
 
 
 def read(name):
-    if name == 'book':
+    if name == 'dbook2014':
         hehe_test = pd.read_csv('dbook2014/train.csv')
-        df_empty = pd.read_csv('test.csv')
+        df_empty = pd.read_csv('dbook2014/test.csv')
         hehe_test = traite_train_test(hehe_test)
         df_empty = traite_train_test(df_empty)
         hehe = hehe_test.append(df_empty)
