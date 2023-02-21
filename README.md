@@ -3,13 +3,13 @@ This is the implementation of our paper titled "Revisiting matrix factorization]
 
 ## Example of A<sup>3</sup>R
 
-![A toy example in book recommendation showing how A<sup>3</sup>R works. The thickness of the arrow reflects the importance of attribute type. In this toy example, the user accords more importance to the genre of the book.](https://github.com/anonymouscodeforpaper/A3R/blob/main/framework_dsaa.png)
+![A toy example in book recommendation showing how A<sup>3</sup>R works. The thickness of the arrow reflects the importance of attribute type. In this toy example, the user accords more importance to the genre of the book.](https://github.com/anonymouscodeforpaper/machine_learning/blob/master/framework_dsaa.png)
 
 A toy example in book recommendation showing how A<sup>3</sup>R works. The thickness of the arrow reflects the importance of attribute type. In this toy example, the user accords more importance to the genre of the book.
 
 ## Major steps of A<sup>3</sup>R
 
-![The major steps of A<sup>3</sup>R](https://github.com/anonymouscodeforpaper/A3R/blob/main/zhuzhu.png)
+![The major steps of A<sup>3</sup>R](https://github.com/anonymouscodeforpaper/machine_learning/blob/master/zhuzhu.png)
 
 ## Strusture of code
 -- In data_loader.py, we preprocess the dataset and returns the training set, testset
