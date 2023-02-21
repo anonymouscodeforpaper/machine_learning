@@ -1,5 +1,5 @@
 # Machine_learning
-This is the implementation of our paper titled "Revisiting matrix factorization]{Revisiting matrix factorization: from an additive and argumentative point of view"  
+This is the implementation of our paper titled "Revisiting matrix factorization: from an additive and argumentative point of view"  
 
 ## Example of A<sup>3</sup>R
 
