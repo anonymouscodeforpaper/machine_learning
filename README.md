@@ -27,4 +27,7 @@ To run the code, python3 main.py--name = 'dbbook2014', this is to run on the Dbo
 -- The source for Netflix, MovieLens Development (Dev.) and the MovieLens 100K, we reuse the version provided in A. Rago, O. Cocarascu, C. Bechlivanidis, D. Lagnado, and F. Toni, “Argumentative explanations for interactive recommendations,” Artificial Intelligence, vol. 296, p. 103506, 2021.
 
 ## Other files
-MovieLens100k,MovieLenssmall,NETFLIX, dbook2014 contains the the parameters of the models, the training and test, and the original datasets. In the NETFLIX, brand_new_netflix.ipynb contains codes for generating the cluster.
+MovieLens100k,MovieLenssmall,NETFLIX, dbook2014 contains the the parameters of the models, the training and test, and the original datasets. In the NETFLIX, brand_new_netflix.ipynb contains codes for generating the cluster. Note that, in order to compare the A-I model proposed by Rago et al, we have adapted the codes proposed by the authors. (Argumenta-
+tion as a framework for interactive explanations for recommendations.
+Proceedings of the international conference on principles of knowledge
+representation and reasoning (Vol. 17, pp. 805–815))
