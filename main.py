@@ -17,7 +17,7 @@ from data_loader import read,read_attributes
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--name', type=str, default='book', help='selection of dataset')
+parser.add_argument('--name', type=str, default='dbook2014', help='selection of dataset')
 parser.add_argument('--n_epochs', type=int, default=100, help='the number of epochs')
 parser.add_argument('--dim', type=int, default=8, help='dimension of user and entity embeddings')
 parser.add_argument('--batch_size', type=int, default=64, help='batch size')
